@@ -13,7 +13,6 @@ export default function HeroSection() {
         <div className="col-span-7 place-self-center text-center sm:text-left">
         <h1 className="mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
           <span className={`block ${textColor}`}> Hello, I'm</span>
-          Surendra Kumar
         <TypingAnim/>
         </h1>
         
