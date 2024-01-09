@@ -5,6 +5,7 @@ import {MoonIcon} from "@/components/icons/MoonIcon";
 import {SunIcon} from "@/components/icons/SunIcon";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button,NavbarMenuToggle, NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
 import {useTheme} from "next-themes";
+import {Avatar} from "@nextui-org/react";
 
 export default function Header() {
   const [mounted, setMounted] = useState(false)
@@ -32,7 +33,8 @@ export default function Header() {
       <Navbar isBordered>
       <NavbarContent className="pr-2" justify="start">
         <NavbarBrand>
-         <span className={`text-xl font-bold ${textColor}`}>{'</> Surendra kumar'}</span>
+        <Avatar isBordered color="primary" src="https://avatars.githubusercontent.com/u/146053122?v=4" size='sm'/>
+         <span className={`text-xl ml-2 font-bold ${textColor}`}>{'Surendra kumar'}</span>
         </NavbarBrand>
       </NavbarContent>
       
